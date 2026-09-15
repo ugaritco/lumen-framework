@@ -1,0 +1,91 @@
+{
+    "name": "ugarit/lumen-framework",
+    "description": "The Ugarit Lumen Framework.",
+    "keywords": [
+        "framework",
+        "ugarit",
+        "lumen"
+    ],
+    "license": "MIT",
+    "homepage": "https://lumen.ugarit.com",
+    "support": {
+        "issues": "https://github.com/ugarit/lumen-framework/issues",
+        "source": "https://github.com/ugarit/lumen-framework"
+    },
+    "authors": [
+        {
+            "name": "Muath R Abu Ouda",
+            "email": "muathrabuouda@hotmail.com",
+            "role": "Vision Leader of Ugarit"
+        },
+        {
+            "name": "Taylor Otwell",
+            "email": "taylor@laravel.com",
+            "role": "Original Creator & Primary Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "composer-runtime-api": "^2.2",
+        "heritage/auth": "^1.00.00",
+        "heritage/broadcasting": "^1.00.00",
+        "heritage/bus": "^1.00.00",
+        "heritage/cache": "^1.00.00",
+        "heritage/collections": "^1.00.00",
+        "heritage/config": "^1.00.00",
+        "heritage/console": "^1.00.00",
+        "heritage/container": "^1.00.00",
+        "heritage/contracts": "^1.00.00",
+        "heritage/database": "^1.00.00",
+        "heritage/encryption": "^1.00.00",
+        "heritage/events": "^1.00.00",
+        "heritage/filesystem": "^1.00.00",
+        "heritage/hashing": "^1.00.00",
+        "heritage/http": "^1.00.00",
+        "heritage/macroable": "^1.00.00",
+        "heritage/pagination": "^1.00.00",
+        "heritage/pipeline": "^1.00.00",
+        "heritage/queue": "^1.00.00",
+        "heritage/support": "^1.00.00",
+        "heritage/testing": "^1.00.00",
+        "heritage/translation": "^1.00.00",
+        "heritage/validation": "^1.00.00",
+        "heritage/view": "^1.00.00",
+        "heritage/log": "^1.00.00",
+        "dragonmantank/cron-expression": "^3.1",
+        "ugarit/prompts": "^1.00.00",
+        "nikic/fast-route": "^1.3",
+        "symfony/console": "^7.0",
+        "symfony/error-handler": "^7.0",
+        "symfony/http-kernel": "^7.0",
+        "symfony/http-foundation": "^7.0",
+        "symfony/mime": "^7.0",
+        "symfony/var-dumper": "^7.0",
+        "vlucas/phpdotenv": "^5.4.1"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.6.10",
+        "phpunit/phpunit": "^10.5.35"
+    },
+    "suggest": {
+        "ugarit/tinker": "Required to use the tinker console command (^2.7).",
+        "nyholm/psr7": "Required to use PSR-7 bridging features (^1.2).",
+        "symfony/psr-http-message-bridge": "Required to use PSR-7 bridging features (^2.0)."
+    },
+    "autoload": {
+        "psr-4": {
+            "Ugarit\\Lumen\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "11.x-dev"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "version": "1.00.00"
+}
